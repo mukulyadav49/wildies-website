@@ -33,15 +33,16 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <!--
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-              </button>
+              </button>-->
               <a class="navbar-brand" href="#" style="font-family: 'Megrim', cursive;">Wildlife trust of India</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -69,7 +70,16 @@
                 <li><a href="#jobs">Jobs</a></li>
                 <li><a href="#donate">Donate</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                  </form>
+                </li>
+                <li><a href="#" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
               </ul>
             </div>
           </div>
