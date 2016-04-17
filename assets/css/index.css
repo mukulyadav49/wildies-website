@@ -98,7 +98,7 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
@@ -130,7 +130,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1185px) {
   .featurette-heading {
     margin-top: 120px;
   }
